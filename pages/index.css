@@ -111,6 +111,10 @@
   margin: 0 0 80px;
 }
 
+.recipes__iframe {
+  border: 0px;
+}
+
 .recipes__videos {
   display: flex;
   justify-content: center;
