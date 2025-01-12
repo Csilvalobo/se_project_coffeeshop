@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  z-index: 1;
 }
 
 .header__image {
@@ -16,6 +17,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
@@ -50,6 +52,7 @@
   display: flex;
   justify-content: space-between;
   color: #6f6f6f;
+  align-items: end;
 }
 
 .header__paragraph {
